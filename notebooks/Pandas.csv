@@ -1,0 +1,708 @@
+Object,Parameter,Default,Annotation,Kind
+ArrowDtype,pyarrow_dtype,<class 'inspect._empty'>,pa.DataType,1
+Categorical,values,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+Categorical,categories,,<class 'inspect._empty'>,1
+Categorical,ordered,,<class 'inspect._empty'>,1
+Categorical,dtype,,Dtype | None,1
+Categorical,fastpath,False,bool,1
+Categorical,copy,True,bool,1
+CategoricalDtype,categories,,<class 'inspect._empty'>,1
+CategoricalDtype,ordered,False,Ordered,1
+CategoricalIndex,data,,<class 'inspect._empty'>,1
+CategoricalIndex,categories,,<class 'inspect._empty'>,1
+CategoricalIndex,ordered,,<class 'inspect._empty'>,1
+CategoricalIndex,dtype,,Dtype | None,1
+CategoricalIndex,copy,False,bool,1
+CategoricalIndex,name,,Hashable,1
+DataFrame,data,,<class 'inspect._empty'>,1
+DataFrame,index,,Axes | None,1
+DataFrame,columns,,Axes | None,1
+DataFrame,dtype,,Dtype | None,1
+DataFrame,copy,,bool | None,1
+DateOffset,data,,<class 'inspect._empty'>,1
+DateOffset,index,,Axes | None,1
+DateOffset,columns,,Axes | None,1
+DateOffset,dtype,,Dtype | None,1
+DateOffset,copy,,bool | None,1
+DatetimeIndex,data,,<class 'inspect._empty'>,1
+DatetimeIndex,freq,_NoDefault.no_default,Frequency | lib.NoDefault,1
+DatetimeIndex,tz,_NoDefault.no_default,<class 'inspect._empty'>,1
+DatetimeIndex,normalize,False,bool,1
+DatetimeIndex,closed,,<class 'inspect._empty'>,1
+DatetimeIndex,ambiguous,raise,TimeAmbiguous,1
+DatetimeIndex,dayfirst,False,bool,1
+DatetimeIndex,yearfirst,False,bool,1
+DatetimeIndex,dtype,,Dtype | None,1
+DatetimeIndex,copy,False,bool,1
+DatetimeIndex,name,,Hashable,1
+DatetimeTZDtype,unit,ns,str_type | DatetimeTZDtype,1
+DatetimeTZDtype,tz,,<class 'inspect._empty'>,1
+ExcelFile,path_or_buffer,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+ExcelFile,engine,,str | None,1
+ExcelFile,storage_options,,StorageOptions,1
+ExcelWriter,path,<class 'inspect._empty'>,FilePath | WriteExcelBuffer | ExcelWriter,1
+ExcelWriter,engine,,str | None,1
+ExcelWriter,date_format,,str | None,1
+ExcelWriter,datetime_format,,str | None,1
+ExcelWriter,mode,w,str,1
+ExcelWriter,storage_options,,StorageOptions,1
+ExcelWriter,if_sheet_exists,,"Literal['error', 'new', 'replace', 'overlay'] | None",1
+ExcelWriter,engine_kwargs,,dict | None,1
+Flags,obj,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+Flags,allows_duplicate_labels,<class 'inspect._empty'>,<class 'inspect._empty'>,3
+Grouper,args,<class 'inspect._empty'>,<class 'inspect._empty'>,2
+Grouper,kwargs,<class 'inspect._empty'>,<class 'inspect._empty'>,4
+HDFStore,path,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+HDFStore,mode,a,str,1
+HDFStore,complevel,,int | None,1
+HDFStore,complib,,<class 'inspect._empty'>,1
+HDFStore,fletcher32,False,bool,1
+HDFStore,kwargs,<class 'inspect._empty'>,<class 'inspect._empty'>,4
+Index,data,,<class 'inspect._empty'>,1
+Index,dtype,,<class 'inspect._empty'>,1
+Index,copy,False,bool,1
+Index,name,,<class 'inspect._empty'>,1
+Index,tupleize_cols,True,bool,1
+IndexSlice,data,,<class 'inspect._empty'>,1
+IndexSlice,dtype,,<class 'inspect._empty'>,1
+IndexSlice,copy,False,bool,1
+IndexSlice,name,,<class 'inspect._empty'>,1
+IndexSlice,tupleize_cols,True,bool,1
+IntervalDtype,subtype,,<class 'inspect._empty'>,1
+IntervalDtype,closed,,str_type | None,1
+IntervalIndex,data,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+IntervalIndex,closed,,<class 'inspect._empty'>,1
+IntervalIndex,dtype,,Dtype | None,1
+IntervalIndex,copy,False,bool,1
+IntervalIndex,name,,Hashable,1
+IntervalIndex,verify_integrity,True,bool,1
+MultiIndex,levels,,<class 'inspect._empty'>,1
+MultiIndex,codes,,<class 'inspect._empty'>,1
+MultiIndex,sortorder,,<class 'inspect._empty'>,1
+MultiIndex,names,,<class 'inspect._empty'>,1
+MultiIndex,dtype,,<class 'inspect._empty'>,1
+MultiIndex,copy,False,bool,1
+MultiIndex,name,,<class 'inspect._empty'>,1
+MultiIndex,verify_integrity,True,bool,1
+NA,levels,,<class 'inspect._empty'>,1
+NA,codes,,<class 'inspect._empty'>,1
+NA,sortorder,,<class 'inspect._empty'>,1
+NA,names,,<class 'inspect._empty'>,1
+NA,dtype,,<class 'inspect._empty'>,1
+NA,copy,False,bool,1
+NA,name,,<class 'inspect._empty'>,1
+NA,verify_integrity,True,bool,1
+NaT,levels,,<class 'inspect._empty'>,1
+NaT,codes,,<class 'inspect._empty'>,1
+NaT,sortorder,,<class 'inspect._empty'>,1
+NaT,names,,<class 'inspect._empty'>,1
+NaT,dtype,,<class 'inspect._empty'>,1
+NaT,copy,False,bool,1
+NaT,name,,<class 'inspect._empty'>,1
+NaT,verify_integrity,True,bool,1
+NamedAgg,column,<class 'inspect._empty'>,ForwardRef('Hashable'),1
+NamedAgg,aggfunc,<class 'inspect._empty'>,ForwardRef('AggScalar'),1
+Period,value,,<class 'inspect._empty'>,1
+Period,freq,,<class 'inspect._empty'>,1
+Period,ordinal,,<class 'inspect._empty'>,1
+Period,year,,<class 'inspect._empty'>,1
+Period,month,,<class 'inspect._empty'>,1
+Period,quarter,,<class 'inspect._empty'>,1
+Period,day,,<class 'inspect._empty'>,1
+Period,hour,,<class 'inspect._empty'>,1
+Period,minute,,<class 'inspect._empty'>,1
+Period,second,,<class 'inspect._empty'>,1
+PeriodDtype,freq,,<class 'inspect._empty'>,1
+PeriodIndex,data,,<class 'inspect._empty'>,1
+PeriodIndex,ordinal,,<class 'inspect._empty'>,1
+PeriodIndex,freq,,<class 'inspect._empty'>,1
+PeriodIndex,dtype,,Dtype | None,1
+PeriodIndex,copy,False,bool,1
+PeriodIndex,name,,Hashable,1
+PeriodIndex,fields,<class 'inspect._empty'>,<class 'inspect._empty'>,4
+RangeIndex,start,,<class 'inspect._empty'>,1
+RangeIndex,stop,,<class 'inspect._empty'>,1
+RangeIndex,step,,<class 'inspect._empty'>,1
+RangeIndex,dtype,,Dtype | None,1
+RangeIndex,copy,False,bool,1
+RangeIndex,name,,Hashable,1
+Series,data,,<class 'inspect._empty'>,1
+Series,index,,<class 'inspect._empty'>,1
+Series,dtype,,Dtype | None,1
+Series,name,,<class 'inspect._empty'>,1
+Series,copy,,bool | None,1
+Series,fastpath,False,bool,1
+SparseDtype,dtype,<class 'numpy.float64'>,Dtype,1
+SparseDtype,fill_value,,Any,1
+StringDtype,storage,,<class 'inspect._empty'>,1
+Timedelta,value,<object object at 0x7fbc4bce45f0>,<class 'inspect._empty'>,1
+Timedelta,unit,,<class 'inspect._empty'>,1
+Timedelta,kwargs,<class 'inspect._empty'>,<class 'inspect._empty'>,4
+TimedeltaIndex,data,,<class 'inspect._empty'>,1
+TimedeltaIndex,unit,,<class 'inspect._empty'>,1
+TimedeltaIndex,freq,_NoDefault.no_default,<class 'inspect._empty'>,1
+TimedeltaIndex,closed,,<class 'inspect._empty'>,1
+TimedeltaIndex,dtype,,<class 'inspect._empty'>,1
+TimedeltaIndex,copy,False,bool,1
+TimedeltaIndex,name,,<class 'inspect._empty'>,1
+Timestamp,ts_input,<object object at 0x7fbc4bce4680>,<class 'inspect._empty'>,1
+Timestamp,year,,<class 'inspect._empty'>,1
+Timestamp,month,,<class 'inspect._empty'>,1
+Timestamp,day,,<class 'inspect._empty'>,1
+Timestamp,hour,,<class 'inspect._empty'>,1
+Timestamp,minute,,<class 'inspect._empty'>,1
+Timestamp,second,,<class 'inspect._empty'>,1
+Timestamp,microsecond,,<class 'inspect._empty'>,1
+Timestamp,tzinfo,,<class 'inspect._empty'>,1
+Timestamp,nanosecond,,<class 'inspect._empty'>,3
+Timestamp,tz,,<class 'inspect._empty'>,3
+Timestamp,unit,,<class 'inspect._empty'>,3
+Timestamp,fold,,<class 'inspect._empty'>,3
+array,data,<class 'inspect._empty'>,Sequence[object] | AnyArrayLike,1
+array,dtype,,Dtype | None,1
+array,copy,True,bool,1
+arrays,data,<class 'inspect._empty'>,Sequence[object] | AnyArrayLike,1
+arrays,dtype,,Dtype | None,1
+arrays,copy,True,bool,1
+bdate_range,start,,<class 'inspect._empty'>,1
+bdate_range,end,,<class 'inspect._empty'>,1
+bdate_range,periods,,int | None,1
+bdate_range,freq,B,Frequency,1
+bdate_range,tz,,<class 'inspect._empty'>,1
+bdate_range,normalize,True,bool,1
+bdate_range,name,,Hashable,1
+bdate_range,weekmask,,<class 'inspect._empty'>,1
+bdate_range,holidays,,<class 'inspect._empty'>,1
+bdate_range,inclusive,both,IntervalClosedType,1
+bdate_range,kwargs,<class 'inspect._empty'>,<class 'inspect._empty'>,4
+compat,start,,<class 'inspect._empty'>,1
+compat,end,,<class 'inspect._empty'>,1
+compat,periods,,int | None,1
+compat,freq,B,Frequency,1
+compat,tz,,<class 'inspect._empty'>,1
+compat,normalize,True,bool,1
+compat,name,,Hashable,1
+compat,weekmask,,<class 'inspect._empty'>,1
+compat,holidays,,<class 'inspect._empty'>,1
+compat,inclusive,both,IntervalClosedType,1
+compat,kwargs,<class 'inspect._empty'>,<class 'inspect._empty'>,4
+concat,objs,<class 'inspect._empty'>,"Iterable[NDFrame] | Mapping[HashableT, NDFrame]",1
+concat,axis,0,Axis,3
+concat,join,outer,str,3
+concat,ignore_index,False,bool,3
+concat,keys,,<class 'inspect._empty'>,3
+concat,levels,,<class 'inspect._empty'>,3
+concat,names,,<class 'inspect._empty'>,3
+concat,verify_integrity,False,bool,3
+concat,sort,False,bool,3
+concat,copy,,bool | None,3
+core,objs,<class 'inspect._empty'>,"Iterable[NDFrame] | Mapping[HashableT, NDFrame]",1
+core,axis,0,Axis,3
+core,join,outer,str,3
+core,ignore_index,False,bool,3
+core,keys,,<class 'inspect._empty'>,3
+core,levels,,<class 'inspect._empty'>,3
+core,names,,<class 'inspect._empty'>,3
+core,verify_integrity,False,bool,3
+core,sort,False,bool,3
+core,copy,,bool | None,3
+crosstab,index,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+crosstab,columns,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+crosstab,values,,<class 'inspect._empty'>,1
+crosstab,rownames,,<class 'inspect._empty'>,1
+crosstab,colnames,,<class 'inspect._empty'>,1
+crosstab,aggfunc,,<class 'inspect._empty'>,1
+crosstab,margins,False,bool,1
+crosstab,margins_name,All,Hashable,1
+crosstab,dropna,True,bool,1
+crosstab,normalize,False,bool,1
+cut,x,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+cut,bins,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+cut,right,True,bool,1
+cut,labels,,<class 'inspect._empty'>,1
+cut,retbins,False,bool,1
+cut,precision,3,int,1
+cut,include_lowest,False,bool,1
+cut,duplicates,raise,str,1
+cut,ordered,True,bool,1
+date_range,start,,<class 'inspect._empty'>,1
+date_range,end,,<class 'inspect._empty'>,1
+date_range,periods,,<class 'inspect._empty'>,1
+date_range,freq,,<class 'inspect._empty'>,1
+date_range,tz,,<class 'inspect._empty'>,1
+date_range,normalize,False,bool,1
+date_range,name,,Hashable,1
+date_range,inclusive,both,IntervalClosedType,1
+date_range,unit,,str | None,3
+date_range,kwargs,<class 'inspect._empty'>,<class 'inspect._empty'>,4
+describe_option,args,<class 'inspect._empty'>,<class 'inspect._empty'>,2
+describe_option,kwds,<class 'inspect._empty'>,<class 'inspect._empty'>,4
+errors,args,<class 'inspect._empty'>,<class 'inspect._empty'>,2
+errors,kwds,<class 'inspect._empty'>,<class 'inspect._empty'>,4
+eval,expr,<class 'inspect._empty'>,str | BinOp,1
+eval,parser,pandas,str,1
+eval,engine,,str | None,1
+eval,local_dict,,<class 'inspect._empty'>,1
+eval,global_dict,,<class 'inspect._empty'>,1
+eval,resolvers,(),<class 'inspect._empty'>,1
+eval,level,0,int,1
+eval,target,,<class 'inspect._empty'>,1
+eval,inplace,False,bool,1
+factorize,values,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+factorize,sort,False,bool,1
+factorize,use_na_sentinel,True,bool,1
+factorize,size_hint,,int | None,1
+from_dummies,data,<class 'inspect._empty'>,DataFrame,1
+from_dummies,sep,,None | str,1
+from_dummies,default_category,,"None | Hashable | dict[str, Hashable]",1
+get_dummies,data,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+get_dummies,prefix,,<class 'inspect._empty'>,1
+get_dummies,prefix_sep,_,"str | Iterable[str] | dict[str, str]",1
+get_dummies,dummy_na,False,bool,1
+get_dummies,columns,,<class 'inspect._empty'>,1
+get_dummies,sparse,False,bool,1
+get_dummies,drop_first,False,bool,1
+get_dummies,dtype,,NpDtype | None,1
+get_option,args,<class 'inspect._empty'>,<class 'inspect._empty'>,2
+get_option,kwds,<class 'inspect._empty'>,<class 'inspect._empty'>,4
+infer_freq,index,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+interval_range,start,,<class 'inspect._empty'>,1
+interval_range,end,,<class 'inspect._empty'>,1
+interval_range,periods,,<class 'inspect._empty'>,1
+interval_range,freq,,<class 'inspect._empty'>,1
+interval_range,name,,Hashable,1
+interval_range,closed,right,IntervalClosedType,1
+io,start,,<class 'inspect._empty'>,1
+io,end,,<class 'inspect._empty'>,1
+io,periods,,<class 'inspect._empty'>,1
+io,freq,,<class 'inspect._empty'>,1
+io,name,,Hashable,1
+io,closed,right,IntervalClosedType,1
+isna,obj,<class 'inspect._empty'>,object,1
+isnull,obj,<class 'inspect._empty'>,object,1
+json_normalize,data,<class 'inspect._empty'>,dict | list[dict],1
+json_normalize,record_path,,str | list | None,1
+json_normalize,meta,,str | list[str | list[str]] | None,1
+json_normalize,meta_prefix,,str | None,1
+json_normalize,record_prefix,,str | None,1
+json_normalize,errors,raise,IgnoreRaise,1
+json_normalize,sep,.,str,1
+json_normalize,max_level,,int | None,1
+lreshape,data,<class 'inspect._empty'>,DataFrame,1
+lreshape,groups,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+lreshape,dropna,True,bool,1
+melt,frame,<class 'inspect._empty'>,DataFrame,1
+melt,id_vars,,<class 'inspect._empty'>,1
+melt,value_vars,,<class 'inspect._empty'>,1
+melt,var_name,,<class 'inspect._empty'>,1
+melt,value_name,value,Hashable,1
+melt,col_level,,<class 'inspect._empty'>,1
+melt,ignore_index,True,bool,1
+merge,left,<class 'inspect._empty'>,DataFrame | Series,1
+merge,right,<class 'inspect._empty'>,DataFrame | Series,1
+merge,how,inner,MergeHow,1
+merge,on,,IndexLabel | None,1
+merge,left_on,,IndexLabel | None,1
+merge,right_on,,IndexLabel | None,1
+merge,left_index,False,bool,1
+merge,right_index,False,bool,1
+merge,sort,False,bool,1
+merge,suffixes,"('_x', '_y')",Suffixes,1
+merge,copy,,bool | None,1
+merge,indicator,False,str | bool,1
+merge,validate,,str | None,1
+merge_asof,left,<class 'inspect._empty'>,DataFrame | Series,1
+merge_asof,right,<class 'inspect._empty'>,DataFrame | Series,1
+merge_asof,on,,IndexLabel | None,1
+merge_asof,left_on,,IndexLabel | None,1
+merge_asof,right_on,,IndexLabel | None,1
+merge_asof,left_index,False,bool,1
+merge_asof,right_index,False,bool,1
+merge_asof,by,,<class 'inspect._empty'>,1
+merge_asof,left_by,,<class 'inspect._empty'>,1
+merge_asof,right_by,,<class 'inspect._empty'>,1
+merge_asof,suffixes,"('_x', '_y')",Suffixes,1
+merge_asof,tolerance,,<class 'inspect._empty'>,1
+merge_asof,allow_exact_matches,True,bool,1
+merge_asof,direction,backward,str,1
+merge_ordered,left,<class 'inspect._empty'>,DataFrame,1
+merge_ordered,right,<class 'inspect._empty'>,DataFrame,1
+merge_ordered,on,,IndexLabel | None,1
+merge_ordered,left_on,,IndexLabel | None,1
+merge_ordered,right_on,,IndexLabel | None,1
+merge_ordered,left_by,,<class 'inspect._empty'>,1
+merge_ordered,right_by,,<class 'inspect._empty'>,1
+merge_ordered,fill_method,,str | None,1
+merge_ordered,suffixes,"('_x', '_y')",Suffixes,1
+merge_ordered,how,outer,JoinHow,1
+notna,obj,<class 'inspect._empty'>,object,1
+notnull,obj,<class 'inspect._empty'>,object,1
+offsets,obj,<class 'inspect._empty'>,object,1
+option_context,args,<class 'inspect._empty'>,<class 'inspect._empty'>,2
+options,args,<class 'inspect._empty'>,<class 'inspect._empty'>,2
+pandas,args,<class 'inspect._empty'>,<class 'inspect._empty'>,2
+period_range,start,,<class 'inspect._empty'>,1
+period_range,end,,<class 'inspect._empty'>,1
+period_range,periods,,int | None,1
+period_range,freq,,<class 'inspect._empty'>,1
+period_range,name,,<class 'inspect._empty'>,1
+pivot,data,<class 'inspect._empty'>,DataFrame,1
+pivot,columns,<class 'inspect._empty'>,IndexLabel,3
+pivot,index,typing.Literal[<no_default>],IndexLabel | lib.NoDefault,3
+pivot,values,typing.Literal[<no_default>],IndexLabel | lib.NoDefault,3
+pivot_table,data,<class 'inspect._empty'>,DataFrame,1
+pivot_table,values,,<class 'inspect._empty'>,1
+pivot_table,index,,<class 'inspect._empty'>,1
+pivot_table,columns,,<class 'inspect._empty'>,1
+pivot_table,aggfunc,mean,AggFuncType,1
+pivot_table,fill_value,,<class 'inspect._empty'>,1
+pivot_table,margins,False,bool,1
+pivot_table,dropna,True,bool,1
+pivot_table,margins_name,All,Hashable,1
+pivot_table,observed,False,bool,1
+pivot_table,sort,True,bool,1
+plotting,data,<class 'inspect._empty'>,DataFrame,1
+plotting,values,,<class 'inspect._empty'>,1
+plotting,index,,<class 'inspect._empty'>,1
+plotting,columns,,<class 'inspect._empty'>,1
+plotting,aggfunc,mean,AggFuncType,1
+plotting,fill_value,,<class 'inspect._empty'>,1
+plotting,margins,False,bool,1
+plotting,dropna,True,bool,1
+plotting,margins_name,All,Hashable,1
+plotting,observed,False,bool,1
+plotting,sort,True,bool,1
+qcut,x,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+qcut,q,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+qcut,labels,,<class 'inspect._empty'>,1
+qcut,retbins,False,bool,1
+qcut,precision,3,int,1
+qcut,duplicates,raise,str,1
+read_clipboard,sep,\s+,str,1
+read_clipboard,dtype_backend,_NoDefault.no_default,DtypeBackend | lib.NoDefault,1
+read_clipboard,kwargs,<class 'inspect._empty'>,<class 'inspect._empty'>,4
+read_csv,filepath_or_buffer,<class 'inspect._empty'>,FilePath | ReadCsvBuffer[bytes] | ReadCsvBuffer[str],1
+read_csv,sep,_NoDefault.no_default,str | None | lib.NoDefault,3
+read_csv,delimiter,,str | None | lib.NoDefault,3
+read_csv,header,infer,int | Sequence[int] | None | Literal['infer'],3
+read_csv,names,_NoDefault.no_default,Sequence[Hashable] | None | lib.NoDefault,3
+read_csv,index_col,,IndexLabel | Literal[False] | None,3
+read_csv,usecols,,<class 'inspect._empty'>,3
+read_csv,dtype,,DtypeArg | None,3
+read_csv,engine,,CSVEngine | None,3
+read_csv,converters,,<class 'inspect._empty'>,3
+read_csv,true_values,,<class 'inspect._empty'>,3
+read_csv,false_values,,<class 'inspect._empty'>,3
+read_csv,skipinitialspace,False,bool,3
+read_csv,skiprows,,<class 'inspect._empty'>,3
+read_csv,skipfooter,0,int,3
+read_csv,nrows,,int | None,3
+read_csv,na_values,,<class 'inspect._empty'>,3
+read_csv,keep_default_na,True,bool,3
+read_csv,na_filter,True,bool,3
+read_csv,verbose,False,bool,3
+read_csv,skip_blank_lines,True,bool,3
+read_csv,parse_dates,,bool | Sequence[Hashable] | None,3
+read_csv,infer_datetime_format,_NoDefault.no_default,bool | lib.NoDefault,3
+read_csv,keep_date_col,False,bool,3
+read_csv,date_parser,_NoDefault.no_default,<class 'inspect._empty'>,3
+read_csv,date_format,,str | None,3
+read_csv,dayfirst,False,bool,3
+read_csv,cache_dates,True,bool,3
+read_csv,iterator,False,bool,3
+read_csv,chunksize,,int | None,3
+read_csv,compression,infer,CompressionOptions,3
+read_csv,thousands,,str | None,3
+read_csv,decimal,.,str,3
+read_csv,lineterminator,,str | None,3
+read_csv,quotechar,"""",str,3
+read_csv,quoting,0,int,3
+read_csv,doublequote,True,bool,3
+read_csv,escapechar,,str | None,3
+read_csv,comment,,str | None,3
+read_csv,encoding,,str | None,3
+read_csv,encoding_errors,strict,str | None,3
+read_csv,dialect,,str | csv.Dialect | None,3
+read_csv,on_bad_lines,error,str,3
+read_csv,delim_whitespace,False,bool,3
+read_csv,low_memory,True,<class 'inspect._empty'>,3
+read_csv,memory_map,False,bool,3
+read_csv,float_precision,,"Literal['high', 'legacy'] | None",3
+read_csv,storage_options,,StorageOptions,3
+read_csv,dtype_backend,_NoDefault.no_default,DtypeBackend | lib.NoDefault,3
+read_excel,io,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+read_excel,sheet_name,0,str | int | list[IntStrT] | None,1
+read_excel,header,0,int | Sequence[int] | None,3
+read_excel,names,,list[str] | None,3
+read_excel,index_col,,int | Sequence[int] | None,3
+read_excel,usecols,,"int | str | Sequence[int] | Sequence[str] | Callable[[str], bool] | None",3
+read_excel,dtype,,DtypeArg | None,3
+read_excel,engine,,"Literal['xlrd', 'openpyxl', 'odf', 'pyxlsb'] | None",3
+read_excel,converters,,"dict[str, Callable] | dict[int, Callable] | None",3
+read_excel,true_values,,Iterable[Hashable] | None,3
+read_excel,false_values,,Iterable[Hashable] | None,3
+read_excel,skiprows,,"Sequence[int] | int | Callable[[int], object] | None",3
+read_excel,nrows,,int | None,3
+read_excel,na_values,,<class 'inspect._empty'>,3
+read_excel,keep_default_na,True,bool,3
+read_excel,na_filter,True,bool,3
+read_excel,verbose,False,bool,3
+read_excel,parse_dates,False,list | dict | bool,3
+read_excel,date_parser,_NoDefault.no_default,Callable | lib.NoDefault,3
+read_excel,date_format,,"dict[Hashable, str] | str | None",3
+read_excel,thousands,,str | None,3
+read_excel,decimal,.,str,3
+read_excel,comment,,str | None,3
+read_excel,skipfooter,0,int,3
+read_excel,storage_options,,StorageOptions,3
+read_excel,dtype_backend,_NoDefault.no_default,DtypeBackend | lib.NoDefault,3
+read_feather,path,<class 'inspect._empty'>,FilePath | ReadBuffer[bytes],1
+read_feather,columns,,Sequence[Hashable] | None,1
+read_feather,use_threads,True,bool,1
+read_feather,storage_options,,StorageOptions,1
+read_feather,dtype_backend,_NoDefault.no_default,DtypeBackend | lib.NoDefault,1
+read_fwf,filepath_or_buffer,<class 'inspect._empty'>,FilePath | ReadCsvBuffer[bytes] | ReadCsvBuffer[str],1
+read_fwf,colspecs,infer,"Sequence[tuple[int, int]] | str | None",3
+read_fwf,widths,,Sequence[int] | None,3
+read_fwf,infer_nrows,100,int,3
+read_fwf,dtype_backend,_NoDefault.no_default,DtypeBackend | lib.NoDefault,3
+read_fwf,kwds,<class 'inspect._empty'>,<class 'inspect._empty'>,4
+read_gbq,query,<class 'inspect._empty'>,str,1
+read_gbq,project_id,,str | None,1
+read_gbq,index_col,,str | None,1
+read_gbq,col_order,,list[str] | None,1
+read_gbq,reauth,False,bool,1
+read_gbq,auth_local_webserver,True,bool,1
+read_gbq,dialect,,str | None,1
+read_gbq,location,,str | None,1
+read_gbq,configuration,,"dict[str, Any] | None",1
+read_gbq,credentials,,<class 'inspect._empty'>,1
+read_gbq,use_bqstorage_api,,bool | None,1
+read_gbq,max_results,,int | None,1
+read_gbq,progress_bar_type,,str | None,1
+read_hdf,path_or_buf,<class 'inspect._empty'>,FilePath | HDFStore,1
+read_hdf,key,,<class 'inspect._empty'>,1
+read_hdf,mode,r,str,1
+read_hdf,errors,strict,str,1
+read_hdf,where,,str | list | None,1
+read_hdf,start,,int | None,1
+read_hdf,stop,,int | None,1
+read_hdf,columns,,list[str] | None,1
+read_hdf,iterator,False,bool,1
+read_hdf,chunksize,,int | None,1
+read_hdf,kwargs,<class 'inspect._empty'>,<class 'inspect._empty'>,4
+read_html,io,<class 'inspect._empty'>,FilePath | ReadBuffer[str],1
+read_html,match,.+,str | Pattern,3
+read_html,flavor,,str | None,3
+read_html,header,,int | Sequence[int] | None,3
+read_html,index_col,,int | Sequence[int] | None,3
+read_html,skiprows,,int | Sequence[int] | slice | None,3
+read_html,attrs,,"dict[str, str] | None",3
+read_html,parse_dates,False,bool,3
+read_html,thousands,",",str | None,3
+read_html,encoding,,str | None,3
+read_html,decimal,.,str,3
+read_html,converters,,dict | None,3
+read_html,na_values,,Iterable[object] | None,3
+read_html,keep_default_na,True,bool,3
+read_html,displayed_only,True,bool,3
+read_html,extract_links,,"Literal[None, 'header', 'footer', 'body', 'all']",3
+read_html,dtype_backend,_NoDefault.no_default,DtypeBackend | lib.NoDefault,3
+read_json,path_or_buf,<class 'inspect._empty'>,FilePath | ReadBuffer[str] | ReadBuffer[bytes],1
+read_json,orient,,str | None,3
+read_json,typ,frame,"Literal['frame', 'series']",3
+read_json,dtype,,DtypeArg | None,3
+read_json,convert_axes,,<class 'inspect._empty'>,3
+read_json,convert_dates,True,bool | list[str],3
+read_json,keep_default_dates,True,bool,3
+read_json,precise_float,False,bool,3
+read_json,date_unit,,str | None,3
+read_json,encoding,,str | None,3
+read_json,encoding_errors,strict,str | None,3
+read_json,lines,False,bool,3
+read_json,chunksize,,int | None,3
+read_json,compression,infer,CompressionOptions,3
+read_json,nrows,,int | None,3
+read_json,storage_options,,StorageOptions,3
+read_json,dtype_backend,_NoDefault.no_default,DtypeBackend | lib.NoDefault,3
+read_json,engine,ujson,JSONEngine,3
+read_orc,path,<class 'inspect._empty'>,FilePath | ReadBuffer[bytes],1
+read_orc,columns,,list[str] | None,1
+read_orc,dtype_backend,_NoDefault.no_default,DtypeBackend | lib.NoDefault,1
+read_orc,kwargs,<class 'inspect._empty'>,<class 'inspect._empty'>,4
+read_parquet,path,<class 'inspect._empty'>,FilePath | ReadBuffer[bytes],1
+read_parquet,engine,auto,str,1
+read_parquet,columns,,list[str] | None,1
+read_parquet,storage_options,,StorageOptions,1
+read_parquet,use_nullable_dtypes,_NoDefault.no_default,bool | lib.NoDefault,1
+read_parquet,dtype_backend,_NoDefault.no_default,DtypeBackend | lib.NoDefault,1
+read_parquet,kwargs,<class 'inspect._empty'>,<class 'inspect._empty'>,4
+read_pickle,filepath_or_buffer,<class 'inspect._empty'>,FilePath | ReadPickleBuffer,1
+read_pickle,compression,infer,CompressionOptions,1
+read_pickle,storage_options,,StorageOptions,1
+read_sas,filepath_or_buffer,<class 'inspect._empty'>,FilePath | ReadBuffer[bytes],1
+read_sas,format,,str | None,3
+read_sas,index,,Hashable | None,3
+read_sas,encoding,,str | None,3
+read_sas,chunksize,,int | None,3
+read_sas,iterator,False,bool,3
+read_sas,compression,infer,CompressionOptions,3
+read_spss,path,<class 'inspect._empty'>,str | Path,1
+read_spss,usecols,,Sequence[str] | None,1
+read_spss,convert_categoricals,True,bool,1
+read_spss,dtype_backend,_NoDefault.no_default,DtypeBackend | lib.NoDefault,1
+read_sql,sql,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+read_sql,con,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+read_sql,index_col,,str | list[str] | None,1
+read_sql,coerce_float,True,bool,1
+read_sql,params,,<class 'inspect._empty'>,1
+read_sql,parse_dates,,<class 'inspect._empty'>,1
+read_sql,columns,,list[str] | None,1
+read_sql,chunksize,,int | None,1
+read_sql,dtype_backend,_NoDefault.no_default,DtypeBackend | lib.NoDefault,1
+read_sql,dtype,,DtypeArg | None,1
+read_sql_query,sql,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+read_sql_query,con,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+read_sql_query,index_col,,str | list[str] | None,1
+read_sql_query,coerce_float,True,bool,1
+read_sql_query,params,,"list[str] | dict[str, str] | None",1
+read_sql_query,parse_dates,,"list[str] | dict[str, str] | None",1
+read_sql_query,chunksize,,int | None,1
+read_sql_query,dtype,,DtypeArg | None,1
+read_sql_query,dtype_backend,_NoDefault.no_default,DtypeBackend | lib.NoDefault,1
+read_sql_table,table_name,<class 'inspect._empty'>,str,1
+read_sql_table,con,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+read_sql_table,schema,,str | None,1
+read_sql_table,index_col,,str | list[str] | None,1
+read_sql_table,coerce_float,True,bool,1
+read_sql_table,parse_dates,,"list[str] | dict[str, str] | None",1
+read_sql_table,columns,,list[str] | None,1
+read_sql_table,chunksize,,int | None,1
+read_sql_table,dtype_backend,_NoDefault.no_default,DtypeBackend | lib.NoDefault,1
+read_stata,filepath_or_buffer,<class 'inspect._empty'>,FilePath | ReadBuffer[bytes],1
+read_stata,convert_dates,True,bool,3
+read_stata,convert_categoricals,True,bool,3
+read_stata,index_col,,str | None,3
+read_stata,convert_missing,False,bool,3
+read_stata,preserve_dtypes,True,bool,3
+read_stata,columns,,Sequence[str] | None,3
+read_stata,order_categoricals,True,bool,3
+read_stata,chunksize,,int | None,3
+read_stata,iterator,False,bool,3
+read_stata,compression,infer,CompressionOptions,3
+read_stata,storage_options,,StorageOptions,3
+read_table,filepath_or_buffer,<class 'inspect._empty'>,FilePath | ReadCsvBuffer[bytes] | ReadCsvBuffer[str],1
+read_table,sep,_NoDefault.no_default,str | None | lib.NoDefault,3
+read_table,delimiter,,str | None | lib.NoDefault,3
+read_table,header,infer,int | Sequence[int] | None | Literal['infer'],3
+read_table,names,_NoDefault.no_default,Sequence[Hashable] | None | lib.NoDefault,3
+read_table,index_col,,IndexLabel | Literal[False] | None,3
+read_table,usecols,,<class 'inspect._empty'>,3
+read_table,dtype,,DtypeArg | None,3
+read_table,engine,,CSVEngine | None,3
+read_table,converters,,<class 'inspect._empty'>,3
+read_table,true_values,,<class 'inspect._empty'>,3
+read_table,false_values,,<class 'inspect._empty'>,3
+read_table,skipinitialspace,False,bool,3
+read_table,skiprows,,<class 'inspect._empty'>,3
+read_table,skipfooter,0,int,3
+read_table,nrows,,int | None,3
+read_table,na_values,,<class 'inspect._empty'>,3
+read_table,keep_default_na,True,bool,3
+read_table,na_filter,True,bool,3
+read_table,verbose,False,bool,3
+read_table,skip_blank_lines,True,bool,3
+read_table,parse_dates,False,bool | Sequence[Hashable],3
+read_table,infer_datetime_format,_NoDefault.no_default,bool | lib.NoDefault,3
+read_table,keep_date_col,False,bool,3
+read_table,date_parser,_NoDefault.no_default,<class 'inspect._empty'>,3
+read_table,date_format,,str | None,3
+read_table,dayfirst,False,bool,3
+read_table,cache_dates,True,bool,3
+read_table,iterator,False,bool,3
+read_table,chunksize,,int | None,3
+read_table,compression,infer,CompressionOptions,3
+read_table,thousands,,str | None,3
+read_table,decimal,.,str,3
+read_table,lineterminator,,str | None,3
+read_table,quotechar,"""",str,3
+read_table,quoting,0,int,3
+read_table,doublequote,True,bool,3
+read_table,escapechar,,str | None,3
+read_table,comment,,str | None,3
+read_table,encoding,,str | None,3
+read_table,encoding_errors,strict,str | None,3
+read_table,dialect,,str | csv.Dialect | None,3
+read_table,on_bad_lines,error,str,3
+read_table,delim_whitespace,False,bool,3
+read_table,low_memory,True,<class 'inspect._empty'>,3
+read_table,memory_map,False,bool,3
+read_table,float_precision,,str | None,3
+read_table,storage_options,,StorageOptions,3
+read_table,dtype_backend,_NoDefault.no_default,DtypeBackend | lib.NoDefault,3
+read_xml,path_or_buffer,<class 'inspect._empty'>,FilePath | ReadBuffer[bytes] | ReadBuffer[str],1
+read_xml,xpath,./*,str,3
+read_xml,namespaces,,"dict[str, str] | None",3
+read_xml,elems_only,False,bool,3
+read_xml,attrs_only,False,bool,3
+read_xml,names,,Sequence[str] | None,3
+read_xml,dtype,,DtypeArg | None,3
+read_xml,converters,,ConvertersArg | None,3
+read_xml,parse_dates,,ParseDatesArg | None,3
+read_xml,encoding,utf-8,str | None,3
+read_xml,parser,lxml,XMLParsers,3
+read_xml,stylesheet,,FilePath | ReadBuffer[bytes] | ReadBuffer[str] | None,3
+read_xml,iterparse,,"dict[str, list[str]] | None",3
+read_xml,compression,infer,CompressionOptions,3
+read_xml,storage_options,,StorageOptions,3
+read_xml,dtype_backend,_NoDefault.no_default,DtypeBackend | lib.NoDefault,3
+reset_option,args,<class 'inspect._empty'>,<class 'inspect._empty'>,2
+reset_option,kwds,<class 'inspect._empty'>,<class 'inspect._empty'>,4
+set_eng_float_format,accuracy,3,int,1
+set_eng_float_format,use_eng_prefix,False,bool,1
+set_option,args,<class 'inspect._empty'>,<class 'inspect._empty'>,2
+set_option,kwds,<class 'inspect._empty'>,<class 'inspect._empty'>,4
+show_versions,as_json,False,str | bool,1
+test,extra_args,,list[str] | None,1
+testing,extra_args,,list[str] | None,1
+timedelta_range,start,,<class 'inspect._empty'>,1
+timedelta_range,end,,<class 'inspect._empty'>,1
+timedelta_range,periods,,int | None,1
+timedelta_range,freq,,<class 'inspect._empty'>,1
+timedelta_range,name,,<class 'inspect._empty'>,1
+timedelta_range,closed,,<class 'inspect._empty'>,1
+timedelta_range,unit,,str | None,3
+to_datetime,arg,<class 'inspect._empty'>,DatetimeScalarOrArrayConvertible | DictConvertible,1
+to_datetime,errors,raise,DateTimeErrorChoices,1
+to_datetime,dayfirst,False,bool,1
+to_datetime,yearfirst,False,bool,1
+to_datetime,utc,False,bool,1
+to_datetime,format,,str | None,1
+to_datetime,exact,_NoDefault.no_default,bool | lib.NoDefault,1
+to_datetime,unit,,str | None,1
+to_datetime,infer_datetime_format,_NoDefault.no_default,lib.NoDefault | bool,1
+to_datetime,origin,unix,str,1
+to_datetime,cache,True,bool,1
+to_numeric,arg,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+to_numeric,errors,raise,DateTimeErrorChoices,1
+to_numeric,downcast,,"Literal['integer', 'signed', 'unsigned', 'float'] | None",1
+to_numeric,dtype_backend,_NoDefault.no_default,DtypeBackend | lib.NoDefault,1
+to_pickle,obj,<class 'inspect._empty'>,Any,1
+to_pickle,filepath_or_buffer,<class 'inspect._empty'>,FilePath | WriteBuffer[bytes],1
+to_pickle,compression,infer,CompressionOptions,1
+to_pickle,protocol,5,int,1
+to_pickle,storage_options,,StorageOptions,1
+to_timedelta,arg,<class 'inspect._empty'>,str | int | float | timedelta | list | tuple | range | ArrayLike | Index | Series,1
+to_timedelta,unit,,UnitChoices | None,1
+to_timedelta,errors,raise,DateTimeErrorChoices,1
+tseries,arg,<class 'inspect._empty'>,str | int | float | timedelta | list | tuple | range | ArrayLike | Index | Series,1
+tseries,unit,,UnitChoices | None,1
+tseries,errors,raise,DateTimeErrorChoices,1
+unique,values,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+util,values,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+value_counts,values,<class 'inspect._empty'>,<class 'inspect._empty'>,1
+value_counts,sort,True,bool,1
+value_counts,ascending,False,bool,1
+value_counts,normalize,False,bool,1
+value_counts,bins,,<class 'inspect._empty'>,1
+value_counts,dropna,True,bool,1
